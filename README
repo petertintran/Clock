@@ -53,6 +53,7 @@
  Limitations: The redrawing of the Clock through Quartz has not been implemented. The only 
  part of the clock app that is working is the numerical display of the current time on the 
  label
+ *At time of submission the project is incomplete*
  
 
 •••••••••••••••••••••••••••
