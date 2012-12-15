@@ -1,0 +1,64 @@
+#
+# Author: Peter Tran
+# Assignment: Clock - Assignment 8 EC
+# Email: petertintran@gmail.com
+# Description: To create a clock app through the use of Quartz or OpenGL
+#
+
+ ----------------------------
+| Clock - Assignment 8 EC    |
+| Created by: Peter Tran     |
+| README.txt                 |
+ ----------------------------
+
+
+•••••••••••••••••••••••••••
+• Table of Contents       *
+•••••••••••••••••••••••••••
+ 1. Project Scope
+ 2. How to Build
+ 3. How to Use
+ 4. Bugs/Limitations
+ 5. Contact Info
+
+
+•••••••••••••••••••••••••••
+• 1. Project Scope        *
+•••••••••••••••••••••••••••
+ The app draws a clock through the use of Quartz or OpenGL. The clock is updated 
+ internally through timer. Once update the clock adjust to the new time that was 
+ calculated.
+
+
+•••••••••••••••••••••••••••
+• 2. How to Build         *
+•••••••••••••••••••••••••••
+ To build and run the application the file: Clock.xcodeproj must be opened on 
+ Xcode then ran from it.
+
+
+•••••••••••••••••••••••••••
+• 3. How to Use           *
+•••••••••••••••••••••••••••
+ The clock will automatically run once the app has been opened. When opening the app a 
+ label will display the current time. Above it is the Clock face that redraws itself 
+ whenever the time is updated. Currently the redrawing of the Clock has not been 
+ implemented. 
+
+
+•••••••••••••••••••••••••••
+• 5. Bug/Limitations      *
+•••••••••••••••••••••••••••
+ There are no bugs in this application.
+ Limitations: The redrawing of the Clock through Quartz has not been implemented. The only 
+ part of the clock app that is working is the numerical display of the current time on the 
+ label
+ 
+
+•••••••••••••••••••••••••••
+• 6. Contact Info         *
+•••••••••••••••••••••••••••
+ Author: Peter Tran
+ Email: petertintran@gmail.com
+ CWID: 806073102
+ The files can be seen and downloaded from: https://github.com/petertintran/Clock

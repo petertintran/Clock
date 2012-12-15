@@ -21,6 +21,9 @@
 		CE4EB97D167B131E008968D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4EB95B167B131E008968D9 /* Foundation.framework */; };
 		CE4EB985167B131E008968D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4EB983167B131E008968D9 /* InfoPlist.strings */; };
 		CE4EB988167B131E008968D9 /* ClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EB987167B131E008968D9 /* ClockTests.m */; };
+		CE627D91167BBFAF00B59571 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4EB99C167B1C7C008968D9 /* QuartzCore.framework */; };
+		CE627D96167BC60900B59571 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EB996167B16FB008968D9 /* ClockViewController.m */; };
+		CE9078CA167BF42A009A2D6F /* ClockFace.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9078C9167BF42A009A2D6F /* ClockFace.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,10 @@
 		CE4EB984167B131E008968D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE4EB986167B131E008968D9 /* ClockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockTests.h; sourceTree = "<group>"; };
 		CE4EB987167B131E008968D9 /* ClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockTests.m; sourceTree = "<group>"; };
+		CE4EB995167B16FB008968D9 /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		CE4EB996167B16FB008968D9 /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		CE4EB99C167B1C7C008968D9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE9078C9167BF42A009A2D6F /* ClockFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClockFace.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE627D91167BBFAF00B59571 /* QuartzCore.framework in Frameworks */,
 				CE4EB95A167B131E008968D9 /* UIKit.framework in Frameworks */,
 				CE4EB95C167B131E008968D9 /* Foundation.framework in Frameworks */,
 				CE4EB95E167B131E008968D9 /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +110,7 @@
 		CE4EB958167B131E008968D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE4EB99C167B1C7C008968D9 /* QuartzCore.framework */,
 				CE4EB959167B131E008968D9 /* UIKit.framework */,
 				CE4EB95B167B131E008968D9 /* Foundation.framework */,
 				CE4EB95D167B131E008968D9 /* CoreGraphics.framework */,
@@ -113,6 +122,9 @@
 		CE4EB95F167B131E008968D9 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				CE9078C9167BF42A009A2D6F /* ClockFace.png */,
+				CE4EB995167B16FB008968D9 /* ClockViewController.h */,
+				CE4EB996167B16FB008968D9 /* ClockViewController.m */,
 				CE4EB968167B131E008968D9 /* AppDelegate.h */,
 				CE4EB969167B131E008968D9 /* AppDelegate.m */,
 				CE4EB96B167B131E008968D9 /* MainStoryboard_iPhone.storyboard */,
@@ -228,6 +240,7 @@
 				CE4EB964167B131E008968D9 /* InfoPlist.strings in Resources */,
 				CE4EB96D167B131E008968D9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CE4EB970167B131E008968D9 /* MainStoryboard_iPad.storyboard in Resources */,
+				CE9078CA167BF42A009A2D6F /* ClockFace.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE627D96167BC60900B59571 /* ClockViewController.m in Sources */,
 				CE4EB966167B131E008968D9 /* main.m in Sources */,
 				CE4EB96A167B131E008968D9 /* AppDelegate.m in Sources */,
 				CE4EB973167B131E008968D9 /* ViewController.m in Sources */,
@@ -448,6 +462,7 @@
 				CE4EB98D167B131E008968D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE4EB98E167B131E008968D9 /* Build configuration list for PBXNativeTarget "ClockTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +471,7 @@
 				CE4EB990167B131E008968D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
